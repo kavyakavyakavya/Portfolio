@@ -1,0 +1,466 @@
+<!-- 
+    Document: Portfolio Website
+    Author: Kavyasree Bandi
+    Description: A personal portfolio website to display skills and projects.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Meta tags for character encoding and viewport settings.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 
+        Title of the webpage.
+    -->
+    <title>My Portfolio</title>
+    
+    <!-- 
+        Link to Font Awesome CSS file for icons.
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- 
+        Link to custom CSS files for styling.
+    -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- 
+        Navbar header section.
+    -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- 
+                Logo section.
+            -->
+            <div class="logo">
+                <h2 class="logo-heading">Kavyasree Bandi</h2>
+            </div>
+            
+            <!-- 
+                Hamburger menu icon.
+            -->
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            
+            <!-- 
+                Menu items.
+            -->
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">Home</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">About</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">Services</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 
+        Main hero banner section.
+    -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <!-- 
+                Headings and buttons.
+            -->
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Kavyasree Bandi</h1>
+                <h4 class="sub-heading">Aspiring Software Developer Seeking Job and Internship Opportunities.</h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <button class="btn ghost-btn">Get Resume</button>
+            </div>
+        </div>
+    </section>
+
+    
+   <!-- 
+    Portfolio Section 
+-->
+<section class="portfolio" id="portfolio">
+    <!-- 
+        Portfolio heading.
+    -->
+    <div class="portfolio-heading">
+        <h1 class="my-heading text-center">Featured Portfolio</h1>
+    </div>
+    
+    <!-- 
+        Portfolio content.
+    -->
+    <div class="portfolio-content">
+        <div class="my-row">
+            <!-- 
+                Portfolio item 1.
+            -->
+            <div class="my-col">
+                <div class="my-card port-card">
+                    <div class="image">
+                        <img src="portfolio\vital-sync.jpg" alt="Vital Sync Image">
+                    </div>
+                    <h3 class="greet-heading blue-text">Vital Sync Application</h3>
+                    <p class="small-para blue-text">Developed a system to track health metrics including heart rate, blood pressure, and activity levels.</p>
+                </div>
+            </div>
+            
+            <!-- 
+                Portfolio item 2.
+            -->
+            <div class="my-col">
+                <div class="my-card port-card">
+                    <div class="image">
+                        <img src="./Images/info-manager-pro.avif" alt="Info Manager Pro Image">
+                    </div>
+                    <h3 class="greet-heading blue-text">Info Manager Pro</h3>
+                    <p class="small-para blue-text">Developed a web-based Information Management System (IMS) with secure user authentication and a customizable dashboard.</p>
+                </div>
+            </div>
+            
+            <!-- 
+                Portfolio item 3.
+            -->
+            <div class="my-col">
+                <div class="my-card port-card">
+                    <div class="image">
+                        <img src="./Images/student-marks-system.avif" alt="Student Marks System Image">
+                    </div>
+                    <h3 class="greet-heading blue-text">Student Marks System</h3>
+                    <p class="small-para blue-text">Developed a Java-based system to manage student records and calculate marks efficiently.</p>
+                </div>
+            </div>
+            
+            <!-- 
+                Portfolio item 4.
+            -->
+            <div class="my-col">
+                <div class="my-card port-card">
+                    <div class="image">
+                        <img src="./Images/portfolio-website.avif" alt="Portfolio Website Image">
+                    </div>
+                    <h3 class="greet-heading blue-text">Portfolio Website</h3>
+                    <p class="small-para blue-text">Created a personal portfolio website to display skills and projects using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- About Section -->
+
+
+<!-- 
+    About Section 
+-->
+<section id="about" class="about">
+    <!-- 
+        About text section.
+    -->
+    <div class="about-text">
+        <h1 class="my-heading">About Me</h1>
+        <p class="lead-para">
+            Passionate and organized individual with expertise in Java and Full-stack web development. Seeking an internship to contribute to team success in a dynamic environment. Diligent, driven, and eager to apply problem-solving skills and collaborate effectively.
+        </p>
+        <p>
+            Kavyasree Bandi, a top champion of the month (January 2024) in UiPath, has created and implemented RPA solutions, enhancing efficiency and productivity for university and local communities. She designed robotic assistants to automate manual processes, significantly boosting productivity, and was recognized for her exceptional contributions. Kavyasree has also mentored junior developers, contributed to open-source RPA projects, and participated in training and competitions to advance skills and stay current with industry trends.
+        </p>
+    </div>
+    <!-- 
+        About image section.
+    -->
+    <div class="about-image">
+        <img src="./Images/profile-image.jpg" alt="Profile Image">
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Web Development
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">SEO</h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Content Writting
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining of websites. 
+                              It includes aspects such as web design, 
+                              web publishing, web programming, and 
+                              database management. It is the creation 
+                              of an application that works over the 
+                              internet i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining of websites. 
+                              It includes aspects such as web design, 
+                              web publishing, web programming, and 
+                              database management. It is the creation of an
+                            application that works over the internet i.e. 
+                              websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-wordpress-simple"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              WordPress Dev
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining of websites. 
+                              It includes aspects such as web design, 
+                              web publishing, web programming, and 
+                              database management. It is the creation 
+                              of an application that works over the 
+                              internet i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                              Video Editing
+                          </h3>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                        <p class="small-para">
+                            Web development refers to the creating, 
+                              building, and maintaining
+                            of websites. It includes aspects such as 
+                              web design, web publishing,
+                            web programming, and database management. 
+                              It is the creation of an
+                            application that works over the internet 
+                              i.e. websites.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="contact-heading">
+        <h1 class="my-heading text-center">Contact Me</h1>
+    </div>
+    <div class="contact-content">
+        <div class="contact-form-container">
+            <h1 class="greet-heading">Get In Touch</h1>
+            <form class="contact-form">
+                <input class="form-controls" type="text" placeholder="Your Name">
+                <input class="form-controls" type="text" placeholder="Your Email">
+                <input class="form-controls" type="text" placeholder="Your Phone">
+                <textarea class="form-controls" placeholder="Write your message" name="message" id="" cols="30" rows="10"></textarea>
+                <input class="form-btn btn common-btn" type="submit" value="Send Message">
+            </form>
+        </div>
+        <div class="contact-details">
+            <h1 class="greet-heading">My Contact Details</h1>
+            <div class="details">
+                <h5 class="contact-heading">EMAIL</h5>
+                <p class="contact-text">kavyasreebandi@gmail.com</p>
+            </div>
+            <div class="details">
+                <h5 class="contact-heading">PHONE</h5>
+                <p class="contact-text">+91 9876543210</p>
+            </div>
+            <div class="details">
+                <h5 class="contact-heading">ADDRESS</h5>
+                <p class="contact-text">San Francisco, CA</p>
+                <p>4th Floor, 8 Lower</p>
+                <p>San Francisco street, M1 50F</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content text-center">
+        <h4>
+            Copyright 2023 Kavyasree Bandi. All rights reserved.
+        </h4>
+        <div class="social-links">
+            <div class="footer-menu">
+                <ul class="footer-menu-list">
+                    <li class="footer-list-items">
+                        <a class="footer-links" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="footer-list-items">
+                        <a class="footer-links" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="footer-list-items">
+                        <a class="footer-links" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer-list-items">
+                        <a class="footer-links" href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
